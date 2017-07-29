@@ -1,0 +1,50 @@
+.intial-text-heading-container {
+	margin: 15px 15px;
+	width: 100%;
+	padding: 0 15px;
+}
+
+h1#homeHeadingName {
+	font-family: 'Anton', sans-serif;
+	font-size: 65px;
+	color: white;
+	letter-spacing: 2px;
+}
+
+h2#leadText {
+	margin-top: 0;
+	font-family: 'Anton', sans-serif;
+	font-size: 55px;
+	color: rgb(64,255,177);
+	letter-spacing: 2px;
+}
+
+h2#leadText span {
+	color: red;
+	animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+	1% { opacity: 1; }
+	50% { opacity: 1; }  
+  51% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* Styles for mobile */
+@media(max-width: 767px) {
+	h1#homeHeadingName {
+	font-family: 'Anton', sans-serif;
+	font-size: 65px;
+	color: white;
+	letter-spacing: 2px;
+}
+
+h2#leadText {
+	margin-top: 0;
+	font-family: 'Anton', sans-serif;
+	font-size: 55px;
+	color: rgb(64,255,177);
+	letter-spacing: 2px;
+}
+}
