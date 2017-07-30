@@ -13,11 +13,11 @@ h3.welcome{
 	font-family: 'Anton', sans-serif;
 	font-size: 30px;
 	letter-spacing: 1px;
-	margin: 0 30px;
+	margin: 0;
 }
 
 p.elevator-pitch {
-	margin: 20px 20px 20px 30px;
+	margin: 20px 0;
 	color: rgb(153, 153, 153);
 	font-family: sans-serif;
 }
