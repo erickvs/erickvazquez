@@ -2,6 +2,7 @@
 .App {
 	padding: 0 70px;
 	min-width: 450px;
+	height: 100vh;
 }
 
 .main-container {

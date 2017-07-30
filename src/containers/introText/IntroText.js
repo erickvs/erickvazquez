@@ -7,7 +7,8 @@ class IntroText extends React.Component {
 		this.state = {
 			descriptions: [ 'WEB DEVELOPER',
 											'PHOTOGRAPHER',
-											'BIRD WATCHER'],
+											'BIRD WATCHER',
+											'COOL CODER'],
 			pause: 0,
 			typingSpeed: 100,
 			descriptionIndex: 0,

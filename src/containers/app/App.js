@@ -19,7 +19,7 @@ class App extends Component {
 			backgroundRepeat: 'no-repeat',
 			backgroundPosition: 'center',
 			backgroundSize: 'cover',
-			backgroundAttachment: 'fixed'
+			backgroundAttachment: 'fixed',
 		}
     return (
       <div className="App" style= { bg }>
