@@ -1,0 +1,43 @@
+#resume-container {
+	height: 1000px;
+	background-image: url('http://erickvazquez.com/resume.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.download-btn,
+.download-btn:hover,
+.download-btn:focus,
+.download-btn:active {
+	margin-bottom: 20px;
+	background-color: rgba(0,0,0,0);
+	border-color: rgb(64, 255, 177);
+
+}
+
+.download-btn h2 {
+	font-size: 15px;
+	display: inline;
+	margin-right: 10px;
+	color: rgb(64, 255, 177);
+}
+
+.download-color {
+	color: rgb(64, 255, 177);
+}
+
+.resume-header {
+	display: flex;
+	justify-content: center;
+}
+
+@media(max-width: 767px) {
+	#resume-container {
+	height: 500px;
+	background-image: url('http://erickvazquez.com/resume.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+}
