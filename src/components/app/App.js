@@ -4,6 +4,7 @@ import NavigationBar from '../nav/NavigationBar'
 import Background from './union_square_sf.png'
 import Home from '../home/Home'
 import WebDevelopment from '../webDevelopment/WebDevelopment'
+import Resume from '../resume/Resume'
 import { 	BrowserRouter as Router, 
 				 	Route 
 				} from 'react-router-dom'
@@ -24,6 +25,7 @@ class App extends Component {
 						<NavigationBar />
 						<Route exact path='/' component={ Home } />
 						<Route path='/web-development' component={ WebDevelopment } />
+						<Route path='/resume' component={Resume} />
 					</div>
 				</Router>
       </div>

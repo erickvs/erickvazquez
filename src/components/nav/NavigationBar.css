@@ -3,18 +3,17 @@
 	margin-bottom: 0;
 	background-color: rgba(0,0,0,0);
 	border: none;
-	border-bottom: 2px solid rgb(75,75,75);
 }
 
 /* Styles for the logo */
-.navbar>.container-fluid .navbar-header .navbar-brand {
+.navbar>.container .navbar-header .navbar-brand {
 	min-height: 150px;
-	min-width: 190px;
+	min-width: 150px;
 	color: rgba(64,255,177,0);
 }
 
 /* Styles for the color of the toggle button */
-.navbar>.container-fluid .navbar-header button {
+.navbar>.container .navbar-header button {
 	margin: 55px 25px;
 }
 button.navbar-toggle.collapsed,
@@ -46,31 +45,33 @@ ul.nav.navbar-nav.navbar-right {
 	margin: 64px 0;
 }
 ul.nav.navbar-nav.navbar-right li a{
-	color: rgb(153,153,153);
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1em;
+	color: rgb(64,255,177);
+	font-family: 'Anton', sans-serif;
+	font-size: 25px;
 	padding: 15px 15px;
 }
 ul.nav.navbar-nav.navbar-right li a:hover{
-	color: rgb(35,249,148);
+	color: rgb(64,255,177);
 }
 ul.nav.navbar-nav.navbar-right li a:active{
-	color: rgb(35,249,148);
+	color: rgb(64,255,177);
 }
 
-/* Styles for the container that hold the links in dropdown */
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-top: 2px solid rgb(153,153,153);
-}
 .nav.navbar-nav.collapse.in .navbar-right ul {
 	margin: 30px 25px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: rgba(0,0,0,0);
 }
 @media (max-width: 767px) {
 	ul.nav.navbar-nav.navbar-right {
 		margin: 5px 5px;
 	}
 	ul.nav.navbar-nav.navbar-right li:hover {
-		background-color: rgb(35,249,148);
+		background-color: rgb(64,255,177);
 	}
 	ul.nav.navbar-nav.navbar-right li a{
 		color: rgb(153,153,153);
@@ -84,6 +85,7 @@ ul.nav.navbar-nav.navbar-right li a:active{
 		color: rgb(153,153,153);
 	}
 }
+
 
 @media(max-width: 960px) {
 	ul.nav.navbar-nav.navbar-right li a{

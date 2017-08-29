@@ -1,0 +1,8 @@
+#myPic {
+	margin-top: 25px;
+	background-image: url('./me.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 400px;
+}

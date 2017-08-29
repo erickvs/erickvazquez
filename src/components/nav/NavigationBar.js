@@ -1,7 +1,7 @@
 import React from 'react'
 import { Nav, Navbar, NavItem } from 'react-bootstrap'
 import './NavigationBar.css'
-import logo from './logo.png'
+import logo from './logo.svg'
 import { LinkContainer } from 'react-router-bootstrap'
 
 function NavigationBar(props) {
@@ -14,32 +14,31 @@ function NavigationBar(props) {
 		backgroundSize: 'contain'
 	}
 	return(
-		<Navbar inverse collapseOnSelect fluid>
-	    <Navbar.Header style={navbarHeaderStyle}>
-	      <Navbar.Brand>
-	      </Navbar.Brand>
+		<Navbar inverse collapseOnSelect >
+	    <Navbar.Header >
+	    	<Navbar.Brand style={navbarHeaderStyle} />
 	      <Navbar.Toggle />
 	    </Navbar.Header>
 	    <Navbar.Collapse>
 	      <Nav pullRight>
 	      	<LinkContainer to='/'>
-	      		<NavItem eventKey={1} href="http://erickvazquez.com">
+	      		<NavItem>
 	      			HOME
 	      		</NavItem>
 	      	</LinkContainer>
 	        <LinkContainer to='/web-development'>
-	        	<NavItem eventKey={2} href="http://erickvazquez.com">
+	        	<NavItem>
 	        		WEB DEVELOPMENT
 	        	</NavItem>
 	        </LinkContainer>
 	        <LinkContainer to='/photoghraphy'>
-	        	<NavItem eventKey={3} href="http://erickvazquez.com">
+	        	<NavItem>
 	        		PHOTOGRAPHY
 	        	</NavItem>
 	        </LinkContainer>
-					<LinkContainer to='/blog'>
-						<NavItem eventKey={4} href="http://erickvazquez.com">
-							BLOG
+					<LinkContainer to='/resume'>
+						<NavItem >
+							RESUME
 						</NavItem>
 					</LinkContainer>
 	      </Nav>
