@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import NavigationBar from '../nav/NavigationBar'
-import Background from './union_square_sf.png'
 import Home from '../home/Home'
 import Resume from '../resume/Resume'
 import { 	BrowserRouter as Router, 
@@ -10,15 +9,8 @@ import { 	BrowserRouter as Router,
 
 class App extends Component {
   render() {
-		const bg = {
-			backgroundImage: `url(${Background})`,
-			backgroundRepeat: 'no-repeat',
-			backgroundPosition: 'center',
-			backgroundSize: 'cover',
-			backgroundAttachment: 'fixed',
-		}
     return (
-      <div className="App" style= { bg }>
+      <div className="App">
    			<Router>
 					<div>
 						<NavigationBar />

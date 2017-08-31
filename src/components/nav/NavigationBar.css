@@ -1,94 +1,54 @@
-/* Styles for the main container */
-.navbar-inverse {
-	margin-bottom: 0;
-	background-color: rgba(0,0,0,0);
+#logo {
+	margin: 25px 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar {
+	min-height: 110px;
 	border: none;
+	border-radius: 0;
 }
 
-/* Styles for the logo */
-.navbar>.container .navbar-header .navbar-brand {
-	min-height: 150px;
-	min-width: 150px;
-	color: rgba(64,255,177,0);
+@media (min-width: 768px) {
+	
 }
 
-/* Styles for the color of the toggle button */
-.navbar>.container .navbar-header button {
-	margin: 55px 25px;
-}
-button.navbar-toggle.collapsed,
-button.navbar-toggle.collapsed:hover,
-button.navbar-toggle.collapsed:focus {
-	background-color: black;
-	border-color: rgb(64,255,177);
-  border-width: 2px;
-}
-.navbar-inverse .navbar-toggle,
-.navbar-inverse .navbar-toggle:focus, 
-.navbar-inverse .navbar-toggle:hover {
-    background-color: rgb(64,255,177);
-    border-color: rgb(50,50,50);
-  	border-width: 2px;
-  	border-style: solid;
+.navbar-nav>li{
+  overflow: hidden;
 }
 
-/* Styles for the lines inside of the toggle button */
-.navbar-inverse .navbar-toggle.collapsed .icon-bar {
-    background-color: rgb(64,255,177);
-}
-.navbar-inverse .navbar-toggle .icon-bar {
-    background-color: black;
+.navbar-nav>li>a:hover {
+  color: black !important;
+  background-color: white !important;
 }
 
-/* Styles for the container of the links in right when collapsed */
-ul.nav.navbar-nav.navbar-right {
-	margin: 64px 0;
-}
-ul.nav.navbar-nav.navbar-right li a{
-	color: rgb(64,255,177);
-	font-family: 'Anton', sans-serif;
-	font-size: 25px;
-	padding: 15px 15px;
-}
-ul.nav.navbar-nav.navbar-right li a:hover{
-	color: rgb(64,255,177);
-}
-ul.nav.navbar-nav.navbar-right li a:active{
-	color: rgb(64,255,177);
+.navbar-nav>li>a:focus,
+.navbar-nav>li>a:active {
+  color: rgb(64, 255, 177) !important;
 }
 
-.nav.navbar-nav.collapse.in .navbar-right ul {
-	margin: 30px 25px;
+.navbar-nav>li.active>a{
+  color: rgb(0, 255, 200) !important;
 }
 
-.navbar-inverse .navbar-nav>.active>a, 
-.navbar-inverse .navbar-nav>.active>a:focus, 
-.navbar-inverse .navbar-nav>.active>a:hover {
-    background-color: rgba(0,0,0,0);
-}
-@media (max-width: 767px) {
-	ul.nav.navbar-nav.navbar-right {
-		margin: 5px 5px;
-	}
-	ul.nav.navbar-nav.navbar-right li:hover {
-		background-color: rgb(64,255,177);
-	}
-	ul.nav.navbar-nav.navbar-right li a{
-		color: rgb(153,153,153);
-		font-size: 1.5em;
-		letter-spacing: 0px;
-	}
-	ul.nav.navbar-nav.navbar-right li a:hover{
-		color: rgb(153,153,153);
-	}
-	ul.nav.navbar-nav.navbar-right li a:focus{
-		color: rgb(153,153,153);
-	}
+.navbar-nav>li>a {
+  padding: 45px 20px 45px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  letter-spacing: -1px;
+  transition: all 0.3s ease-in-out;
+  color: white !important;
 }
 
+.navbar-inverse {
+  background-color: #000;
+  border-color: #000;
+}
 
-@media(max-width: 960px) {
-	ul.nav.navbar-nav.navbar-right li a{
-		padding: 15px 8px;
-	}
+.navbar-toggle {
+    margin-top: 39px;
+    margin-bottom: 40px;
 }

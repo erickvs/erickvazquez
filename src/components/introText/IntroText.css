@@ -7,7 +7,7 @@
 h1#homeHeadingName {
 	font-family: 'Anton', sans-serif;
 	font-size: 65px;
-	color: white;
+	color: black;
 	letter-spacing: 2px;
 }
 
@@ -37,7 +37,7 @@ h2#leadText span {
 	text-align: center;
 	font-family: 'Anton', sans-serif;
 	font-size: 65px;
-	color: white;
+	color: black;
 	letter-spacing: 2px;
 }
 
