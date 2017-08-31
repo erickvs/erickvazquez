@@ -27,17 +27,17 @@
 
 .navbar-nav>li>a:focus,
 .navbar-nav>li>a:active {
-  color: rgb(64, 255, 177) !important;
+  color: rgb(64,255,200) !important;
 }
 
 .navbar-nav>li.active>a{
-  color: rgb(0, 255, 200) !important;
+  color: rgb(64,255,200) !important;
 }
 
 .navbar-nav>li>a {
   padding: 45px 20px 45px;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: -1px;
   transition: all 0.3s ease-in-out;
   color: white !important;

@@ -15,7 +15,7 @@ h2#leadText {
 	margin-top: 0;
 	font-family: 'Anton', sans-serif;
 	font-size: 55px;
-	color: rgb(64,255,177);
+	color: rgb(64,255,200);
 	letter-spacing: 2px;
 }
 
@@ -34,7 +34,7 @@ h2#leadText span {
 /* Styles for mobile */
 @media(max-width: 767px) {
 	h1#homeHeadingName {
-	text-align: center;
+	text-align: left;
 	font-family: 'Anton', sans-serif;
 	font-size: 65px;
 	color: black;
@@ -42,11 +42,11 @@ h2#leadText span {
 }
 
 h2#leadText {
-	text-align: center;
+	text-align: left;
 	margin-top: 0;
 	font-family: 'Anton', sans-serif;
 	font-size: 55px;
-	color: rgb(64,255,177);
+	color: rgb(64,255,200);
 	letter-spacing: 2px;
 }
 }
