@@ -24,7 +24,6 @@ class App extends Component {
 					<div>
 						<NavigationBar />
 						<Route exact path='/' component={ Home } />
-						<Route path='/web-development' component={ WebDevelopment } />
 						<Route path='/resume' component={Resume} />
 					</div>
 				</Router>

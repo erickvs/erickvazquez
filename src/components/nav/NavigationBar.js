@@ -26,16 +26,6 @@ function NavigationBar(props) {
 	      			HOME
 	      		</NavItem>
 	      	</LinkContainer>
-	        <LinkContainer to='/web-development'>
-	        	<NavItem>
-	        		WEB DEVELOPMENT
-	        	</NavItem>
-	        </LinkContainer>
-	        <LinkContainer to='/photoghraphy'>
-	        	<NavItem>
-	        		PHOTOGRAPHY
-	        	</NavItem>
-	        </LinkContainer>
 					<LinkContainer to='/resume'>
 						<NavItem >
 							RESUME
