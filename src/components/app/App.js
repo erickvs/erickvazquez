@@ -3,7 +3,6 @@ import './App.css';
 import NavigationBar from '../nav/NavigationBar'
 import Background from './union_square_sf.png'
 import Home from '../home/Home'
-import WebDevelopment from '../webDevelopment/WebDevelopment'
 import Resume from '../resume/Resume'
 import { 	BrowserRouter as Router, 
 				 	Route 
