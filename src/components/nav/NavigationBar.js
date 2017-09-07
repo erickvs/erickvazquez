@@ -3,6 +3,7 @@ import { Nav, Navbar, NavItem } from 'react-bootstrap'
 import './NavigationBar.css'
 import logo from './logo.svg'
 import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap'
+import FontAwesome from 'react-fontawesome'
 
 function NavigationBar(props) {
 	return(
@@ -36,6 +37,16 @@ function NavigationBar(props) {
 		        <LinkContainer to='/contact'>
 		        	<NavItem>Contact</NavItem>
 		        </LinkContainer>
+		        <li className='social-media-links'>
+		        	<a href='https://www.linkedin.com/in/erickvazquez/'>
+		        		<FontAwesome name='linkedin-square' size='2x'></FontAwesome>
+		        	</a>
+		        </li>
+		        <li className='social-media-links'>
+		        	<a href="https://github.com/erickvs">
+								<FontAwesome name='github' size='2x'></FontAwesome>
+		        	</a>
+		        </li>
 		      </Nav>
 		    </Navbar.Collapse>
 		  </Navbar>

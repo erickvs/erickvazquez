@@ -16,8 +16,10 @@
 	border-bottom: 1px solid rgb(100,100,100);
 }
 
-@media (min-width: 768px) {
-	
+@media (max-width: 767px) {
+	#logo {
+		margin-top: 40px;
+	}
 }
 
 .navbar-nav>li{
@@ -25,8 +27,7 @@
 }
 
 .navbar-nav>li>a:hover {
-  color: black !important;
-  background-color: white !important;
+  color: rgb(64,255,200) !important;
 }
 
 .navbar-nav>li>a:focus,
@@ -36,10 +37,11 @@
 
 .navbar-nav>li.active>a{
   color: rgb(64,255,200) !important;
+  background-color: rgb(30,30,30) !important;
 }
 
 .navbar-nav>li>a {
-  padding: 30px 20px 15px;
+  padding: 27px 20px 15px;
   font-family: 'Quicksand', sans-serif;
   font-size: 14px;
   transition: all 0.3s ease-in-out;
@@ -54,4 +56,15 @@
 .navbar-toggle {
     margin-top: 39px;
     margin-bottom: 40px;
+}
+
+.social-media-links>a {
+	padding-top: 22px !important;
+	padding-left: 15px !important;
+	padding-right: 0px !important;
+	
+}
+
+.social-media-links>a>span {
+	color: rgb(64,255,200) !important;
 }
