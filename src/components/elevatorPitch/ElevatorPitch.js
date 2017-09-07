@@ -12,6 +12,9 @@ function ElevatorPitch(props) {
 				bachelors in computer science. I am an aspiring web developer and I 
 				love creating web apps with React and Redux. 
 			</p>
+			<p>
+				Pardon the empty links, this site is under construction!
+			</p>
 		</div>
 	)
 }

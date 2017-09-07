@@ -14,7 +14,7 @@ function NavigationBar(props) {
 								id='logo'
 								src={logo} 
 								alt='erick vazquez'
-								height='60px'/>
+								height='30px'/>
 		        </a>
 		      </Navbar.Brand>
 		      <Navbar.Toggle />
@@ -22,10 +22,19 @@ function NavigationBar(props) {
 		    <Navbar.Collapse>
 		      <Nav pullRight>
 		      	<IndexLinkContainer to='/'>
-							<NavItem>HOME</NavItem>
+							<NavItem>Home</NavItem>
 		      	</IndexLinkContainer>
+		      	<LinkContainer to='/projects'>
+		        	<NavItem>Projects</NavItem>
+		        </LinkContainer>
 		        <LinkContainer to='/resume'>
-		        	<NavItem>RESUME</NavItem>
+		        	<NavItem>Resume</NavItem>
+		        </LinkContainer>
+		        <LinkContainer to='/blog'>
+		        	<NavItem>Blog</NavItem>
+		        </LinkContainer>
+		        <LinkContainer to='/contact'>
+		        	<NavItem>Contact</NavItem>
 		        </LinkContainer>
 		      </Nav>
 		    </Navbar.Collapse>

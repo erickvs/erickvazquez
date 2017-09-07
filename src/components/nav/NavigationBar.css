@@ -1,5 +1,5 @@
 #logo {
-	margin: 25px 0;
+	margin: 20px 0 20px 20px;
 }
 
 .navbar-brand {
@@ -7,9 +7,13 @@
 }
 
 .navbar {
-	min-height: 110px;
 	border: none;
 	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar .container {
+	border-bottom: 1px solid rgb(100,100,100);
 }
 
 @media (min-width: 768px) {
@@ -35,16 +39,15 @@
 }
 
 .navbar-nav>li>a {
-  padding: 45px 20px 45px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 16px;
-  letter-spacing: -1px;
+  padding: 30px 20px 15px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
   transition: all 0.3s ease-in-out;
   color: white !important;
 }
 
 .navbar-inverse {
-  background-color: #000;
+  background-color: rgb(30,30,30);
   border-color: #000;
 }
 

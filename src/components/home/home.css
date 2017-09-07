@@ -1,8 +1,11 @@
 #myPic {
-	margin-top: 25px;
-	background-image: url('./me.jpg');
+	background-image: url('./me.svg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
 	height: 400px;
+}
+
+.pitch-and-pic-container {
+	background-color: rgb(64, 255, 200);
 }
