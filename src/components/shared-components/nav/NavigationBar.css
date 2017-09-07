@@ -18,7 +18,7 @@
 
 @media (max-width: 767px) {
 	#logo {
-		margin-top: 40px;
+		margin-top: 20px;
 	}
 }
 
@@ -54,8 +54,8 @@
 }
 
 .navbar-toggle {
-    margin-top: 39px;
-    margin-bottom: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .social-media-links>a {
