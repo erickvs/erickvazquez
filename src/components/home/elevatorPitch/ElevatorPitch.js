@@ -1,4 +1,5 @@
 import React from 'react'
+import FontAwesome from 'react-fontawesome'
 import './ElevatorPitch.css'
 
 function ElevatorPitch(props) {
@@ -13,8 +14,11 @@ function ElevatorPitch(props) {
 				love creating web apps with React and Redux. 
 			</p>
 			<p>
-				Pardon the empty links, this site is under construction!
+				<FontAwesome name='exclamation-triangle' />
+				Pardon the empty pages, this site is under construction
+				<FontAwesome name='exclamation-triangle' />
 			</p>
+			<p className='last-updated'>LAST UPDATED ON: {(new Date()).toString()}</p>
 		</div>
 	)
 }

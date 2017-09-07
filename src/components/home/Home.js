@@ -1,17 +1,7 @@
 import React from 'react'
-import IntroText from '../introText/IntroText'
-import ElevatorPitch from '../elevatorPitch/ElevatorPitch'
-import Footer from '../footer/Footer'
-import NavigationBar from '../nav/NavigationBar'
-import ProjectSlider from '../project-slider/ProjectSlider'
+import ElevatorPitch from './elevatorPitch/ElevatorPitch'
+import ProjectSlider from './project-slider/ProjectSlider'
 import './home.css'
-
-const homeHeader = (
-	<div className="home-header">
-		<NavigationBar />
-		<ProjectSlider />
-	</div>
-)
 
 const pitchAndMyPicture = (
 	<div className="pitch-and-pic-container">
@@ -29,10 +19,9 @@ const pitchAndMyPicture = (
 
 function Home(props) {
 	return(
-		<div className="home">
-			{ homeHeader }
+		<div>
+			<ProjectSlider />
 			{ pitchAndMyPicture }
-			<Footer />
 		</div>
 	)
 }

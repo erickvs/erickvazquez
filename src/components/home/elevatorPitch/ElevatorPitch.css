@@ -4,6 +4,11 @@
 	padding-top: 70px;
 }
 
+.elevator-pitch-container span{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
 h3.welcome{
 	background-color: rgb(30,30,30);
 	padding: 10px;

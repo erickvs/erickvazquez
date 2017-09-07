@@ -3,14 +3,6 @@ import Slider from 'react-slick'
 import './ProjectSlider.css'
 import FontAwesome from 'react-fontawesome'
 
-function NextArrow(props) {
-	return(<div id='next-arrow'></div>)
-}
-
-function PreviousArrow(props) {
-	return(<div id='previous-arrow'></div>)
-}
-
 function Slide(props) {
 	return(
 		<div className="slide">

@@ -1,0 +1,33 @@
+.blog-header {
+	background-color: rgb(30,30,30);
+}
+
+.blog-header h1{
+	font-size: 210px;
+	color: rgb(64,255,200);
+	text-align: center;
+}
+
+.blog-header h2{
+	font-size: 30px;
+	color: rgb(64,255,200);
+	text-align: center;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+	.blog-header h1{
+		font-size: 177px;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.blog-header h1{
+		font-size: 135px;
+	}
+}
+
+@media (max-width: 767px) {
+	.blog-header h1{
+		font-size: 72px;
+	}
+}

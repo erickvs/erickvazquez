@@ -9,3 +9,7 @@
 .pitch-and-pic-container {
 	background-color: rgb(64, 255, 200);
 }
+
+.last-updated {
+	color: red;
+}

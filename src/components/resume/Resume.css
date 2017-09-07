@@ -1,9 +1,41 @@
-#resume-container {
-	height: 1000px;
-	background-image: url('http://erickvazquez.com/resume.svg');
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
+.resume-header {
+	background-color: rgb(30,30,30);
+}
+
+.resume-header h1{
+	font-size: 210px;
+	color: rgb(64,255,200);
+	text-align: center;
+}
+
+.resume-header h2{
+	font-size: 30px;
+	color: rgb(64,255,200);
+	text-align: center;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+	.resume-header h1{
+		font-size: 177px;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.resume-header h1{
+		font-size: 135px;
+	}
+}
+
+@media (max-width: 767px) {
+	.resume-header h1{
+		font-size: 72px;
+	}
+}
+
+#download-button-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 .download-btn,
@@ -13,7 +45,6 @@
 	margin-bottom: 20px;
 	background-color: rgba(0,0,0,0);
 	border-color: rgb(64, 255, 177);
-
 }
 
 .download-btn h2 {
@@ -25,19 +56,4 @@
 
 .download-color {
 	color: rgb(64, 255, 177);
-}
-
-.resume-header {
-	display: flex;
-	justify-content: center;
-}
-
-@media(max-width: 767px) {
-	#resume-container {
-	height: 500px;
-	background-image: url('http://erickvazquez.com/resume.svg');
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
-}
 }
