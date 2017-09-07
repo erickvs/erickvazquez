@@ -1,6 +1,5 @@
 .footer {
 	background-color: rgb(30,30,30);
-	height: 50px;
 }
 
 .footer p{
@@ -9,4 +8,5 @@
 	text-align: right;
 	padding: 17px;
 	color: rgba(64, 255, 200, .5);
+	margin-bottom: 0;
 }
