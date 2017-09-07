@@ -1,3 +1,12 @@
-.footer h3{
-	color: white;
+.footer {
+	background-color: rgb(30,30,30);
+	height: 50px;
+}
+
+.footer p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10px;
+	text-align: right;
+	padding: 17px;
+	color: rgba(64, 255, 200, .5);
 }

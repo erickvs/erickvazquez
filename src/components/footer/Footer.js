@@ -3,11 +3,11 @@ import './Footer.css'
 
 function Footer(props) {
 	return(
-		<div className='container'>
-			<div className="row">
-				<div className="col-md-12">
-					<div className="footer">
-						
+		<div className="footer">
+			<div className='container'>
+				<div className="row">
+					<div className="col-md-12">
+						<p>© 2017 Erick Vazquez</p>
 					</div>
 				</div>
 			</div>
