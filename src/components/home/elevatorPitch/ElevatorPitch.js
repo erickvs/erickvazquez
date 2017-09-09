@@ -19,7 +19,7 @@ function ElevatorPitch(props) {
 				<FontAwesome name='exclamation-triangle' />
 			</p>
 			<p className='last-updated'>LAST UPDATED ON: 
-				Thu Sep 07 2017 15:41:43 GMT-0700 (PDT)
+				Sat Sep 09 2017 00:39:51 GMT-0700 (PDT)
 			</p>
 		</div>
 	)
