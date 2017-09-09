@@ -37,16 +37,16 @@ function NavigationBar(props) {
 		        <LinkContainer to='/contact'>
 		        	<NavItem>Contact</NavItem>
 		        </LinkContainer>
-		        <li className='social-media-links'>
-		        	<a href='https://www.linkedin.com/in/erickvazquez/'>
-		        		<FontAwesome name='linkedin-square' size='2x'></FontAwesome>
-		        	</a>
-		        </li>
-		        <li className='social-media-links'>
-		        	<a href="https://github.com/erickvs">
-								<FontAwesome name='github' size='2x'></FontAwesome>
-		        	</a>
-		        </li>
+		        <NavItem 	eventKey={1} 
+		        					href='https://www.linkedin.com/in/erickvazquez/' 
+		        					className='social-media-links' >
+		        	<FontAwesome name='linkedin-square' size='2x'></FontAwesome>
+		        </NavItem>
+		        <NavItem 	eventKey={2} 
+		        					href="https://github.com/erickvs" 
+		        					className='social-media-links' >
+		        	<FontAwesome name='github' size='2x'></FontAwesome>
+		        </NavItem>
 		      </Nav>
 		    </Navbar.Collapse>
 		  </Navbar>
