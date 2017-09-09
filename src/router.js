@@ -14,6 +14,7 @@ function EVRouter(props) {
  			<Router>
 				<div>
 					<NavigationBar />
+					<Route path='//' component={ Home } />
 					<Route exact path='/' component={ Home } />
 					<Route path='/resume' component={ Resume } />
 					<Route path='/projects' component={ Projects } />
